@@ -5,9 +5,11 @@
     /* border: solid; */
 }
 
+body{
+    background-color: #424874;
+}
 #wrapper{
     display: flex;
-    background-color: #424874;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -16,12 +18,11 @@
 .body{
     display: flex;
     flex-direction: column;
-    max-width: 600px;
     padding: 20px;
-    aspect-ratio: 1/1.4;
-    height: 100vh;
     border-radius: 10px;
     background-color: #A6B1E1;
+    min-width: 500px;
+    height: 800px;
 }
 
 .upper{
