@@ -21,8 +21,10 @@ body{
     padding: 20px;
     border-radius: 10px;
     background-color: #A6B1E1;
-    min-width: 500px;
-    height: 800px;
+    min-height: 0;
+    height: 100%;
+
+    aspect-ratio: 1/1.4;
 }
 
 .upper{
@@ -85,6 +87,4 @@ body{
     transition-duration: 200ms;
     box-shadow: 2px 2px black;
 }
-
-
 
